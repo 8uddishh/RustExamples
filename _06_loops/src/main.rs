@@ -39,4 +39,9 @@ fn main() {
         println!("{}!", number);
     }
     println!("LIFTOFF!!!");
+
+    let numbers = 0..101;
+    for number in numbers {
+        println!("{}", number);
+    }
 }
